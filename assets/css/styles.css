@@ -1,0 +1,59 @@
+.brand-logo {
+  width: 200px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #565e66;
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+  color: #5e17eb;
+}
+
+.service-image {
+  width: 50%;
+}
+
+.service-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.service-card {
+  margin-bottom: 15px;
+  min-height: 200px;
+  transition: 0.7s;
+  cursor: pointer;
+}
+
+@media (min-width: 1200px) {
+  .service-title {
+    text-align: left !important;
+    margin-left: 10px;
+  }
+}
+
+.service-card:hover {
+  background: rgba(94,23,235,0.18);
+  color: #5e17eb;
+  overflow: hidden;
+}
+
+.navbar {
+  z-index: 1;
+}
+
+.section-body {
+  line-height: 1.7;
+}
+
+.service-list-li li {
+  margin-bottom: 25px;
+}
+
+.section-img {
+  width: 65px;
+  margin-bottom: 15px;
+}
+
